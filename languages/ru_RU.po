@@ -1,0 +1,403 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-08-04 11:06+0300\n"
+"PO-Revision-Date: 2020-08-04 11:07+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:4
+msgid "Ошибка 404"
+msgstr "Помилка 404"
+
+#: 404.php:5 includes/customizer.php:55
+msgid "Запитувана вами сторінка не знайдена"
+msgstr "Запрашиваемая Вами страница не найдена"
+
+#: 404.php:6 includes/customizer.php:71
+msgid ""
+"На жаль такої сторінки не існує. Імовірно, вона була видалена, або її тут "
+"ніколи не було. Ви можете скористатися пошуком або зв'язатися з "
+"адміністрацією сайту."
+msgstr ""
+"К сожалению такой страницы не существует. Вероятно, она была удалена, либо "
+"ее здесь никогда не было. Вы можете воспользоваться поиском или связаться с "
+"администрацией сайта."
+
+#: 404.php:15 page-contacts.php:29
+msgid "Від кого"
+msgstr "От кого"
+
+#: 404.php:16 page-contacts.php:30
+msgid "Email"
+msgstr "Email"
+
+#: 404.php:17 page-contacts.php:31
+msgid "Телефон"
+msgstr "Телефон"
+
+#: 404.php:18
+msgid "URL сторінки"
+msgstr "URL страницы"
+
+#: 404.php:19 404.php:149 page-contacts.php:33
+msgid "Повідомлення"
+msgstr "Сообщение"
+
+#: 404.php:32 page-contacts.php:46
+msgid "Повідомлення не пройшло перевірку!"
+msgstr "Сообщение не прошло проверку!"
+
+#: 404.php:80 page-contacts.php:89
+msgid "Подвідомлення з сайту"
+msgstr "Сообщение с сайта"
+
+#: 404.php:87 page-contacts.php:96
+msgid "Повідомлення відправлено."
+msgstr "Сообщение отправленно."
+
+#: 404.php:87 page-contacts.php:96
+msgid "Ми з Вами обов`зково зв`яжемось."
+msgstr "Ми с Вами обязательно свяжемся."
+
+#: 404.php:89 page-contacts.php:98
+msgid "Сталася помилка, повідомлення не відправлено!"
+msgstr "Произошла ошибка, сообщение не отправленно!"
+
+#: 404.php:95
+msgid "На головну"
+msgstr "На шлавную"
+
+#: 404.php:96
+msgid "Зв'язатись з адміністрацією сайту"
+msgstr "Связаться с администрацией сайта"
+
+#: 404.php:103
+msgid "Зв'язок з адміністрацією сайту"
+msgstr "Связь с администрацией сайта"
+
+#: 404.php:112
+msgid "Ваше ім`я"
+msgstr "Ваше имя"
+
+#: 404.php:120 comments.php:94 page-contacts.php:115
+msgid "Ваш email"
+msgstr "Ваш email"
+
+#: 404.php:128 page-contacts.php:125
+msgid "Ваш телефон"
+msgstr "Ваш телефон"
+
+#: 404.php:156
+msgid "Закрити"
+msgstr "Закрыть"
+
+#: 404.php:157 page-contacts.php:158
+msgid "Відправити"
+msgstr "Отправить"
+
+#: comments.php:5
+msgid "Коментарі:"
+msgstr "Комментарии:"
+
+#: comments.php:6
+msgid "Всьго:"
+msgstr "Всего:"
+
+#: comments.php:26
+msgid "Ваш коментар очікує на перевірку"
+msgstr "Ваш комментрий ожидает проверку"
+
+#: comments.php:31
+msgid "Редагувати"
+msgstr "Редактировать"
+
+#: comments.php:34 comments.php:69
+msgid "Відповісти"
+msgstr "Ответить"
+
+#: comments.php:35
+msgid "Авторізуйтесь для відповіді"
+msgstr "Авторизоваться для ответа"
+
+#: comments.php:93
+msgid "Ваше ім'я"
+msgstr "Ваше имя"
+
+#: comments.php:95
+msgid "Ваш сайт"
+msgstr "Ваш сайт"
+
+#: comments.php:97
+msgid "Коментар:"
+msgstr "Комментарий:"
+
+#: comments.php:98
+#, php-format
+msgid "Вам необхідно <a href=\"%s\">авторизуватись</a> щоб залишити коментар."
+msgstr ""
+"Вам необходимо <a href=\"%s\">авторизироваться</a> чтобы оставить комментаий."
+
+#: comments.php:99
+#, php-format
+msgid ""
+"<a href=\"%1$s\" aria-label=\"Ви авторизувались як %2$s. Редагувати свій "
+"профіль.\">Ви авторизувались як %2$s</a>. <a href=\"%3$s\">Вийти?</a>"
+msgstr ""
+"<a href=\"%1$s\" aria-label=\"Вы Авторизовались как %2$s. Редактировать свой "
+"профиль.\">Вы авторизовались как %2$s</a>. <a href=\"%3$s\">Выйти?</a>"
+
+#: comments.php:100
+msgid "Ваш e-mail адрес не публикуется."
+msgstr "Ваш e-mail адрес не публикуется."
+
+#: comments.php:107
+msgid "Залишити відповідь"
+msgstr "Оставить ответ"
+
+#: comments.php:108
+#, php-format
+msgid "Залишити відповідь для to %s"
+msgstr "Оставить ответ для %s"
+
+#: comments.php:113
+msgid "Відмінити відповідь"
+msgstr "Отменить ответ"
+
+#: comments.php:114
+msgid "Залишити коментар"
+msgstr "Оставить комментарий"
+
+#: footer.php:26
+msgid "ПДТУ"
+msgstr "ПГТУ"
+
+#: footer.php:30
+msgid "Розробка: Лабораторія програмних продуктів ПДТУ"
+msgstr "Раработка: Лаборатория програмных продуктов ПГТУ"
+
+#: footer.php:30
+msgid "Розробка: ЛПП ПДТУ"
+msgstr "Розробка: ЛПП ПГТУ"
+
+#: header.php:19
+msgid "Навігація"
+msgstr "Навигация"
+
+#: header.php:48 searchform.php:6 sidebar-404.php:13
+msgid "Знайти"
+msgstr "Найти"
+
+#: header.php:84
+msgid "Ви переглядаєте сторінку мітки:"
+msgstr "Вы просматриваете страницу тэга:"
+
+#: header.php:87
+msgid "Ви переглядаєте розділ:"
+msgstr "Вы просматриваете раздел:"
+
+#: header.php:97
+msgid "Результати пошуку:"
+msgstr "Результаты поиска:"
+
+#: includes/customizer.php:14
+msgid "Налаштування теми \"Events PSTU\""
+msgstr "Настройки темы \"Events PSTU\""
+
+#: includes/customizer.php:31
+msgid "Вібир розміру постів головної сторінки"
+msgstr "Выбор размеров постов главной страницы"
+
+#: includes/customizer.php:34
+msgid "SM"
+msgstr "SM"
+
+#: includes/customizer.php:35
+msgid "MD"
+msgstr "MD"
+
+#: includes/customizer.php:45
+msgid "Сторінка 404"
+msgstr "Страница 404"
+
+#: includes/customizer.php:47
+msgid "Налаштування сторінки помилки 404 (404.php)"
+msgstr "Настройки страницы ошибки 404 (404.php)"
+
+#: includes/customizer.php:63 includes/customizer.php:79
+msgid "Заголовок"
+msgstr "Заголовок"
+
+#: includes/customizer.php:89
+msgid "Шапка сайту"
+msgstr "Шапка сайта"
+
+#: includes/customizer.php:91
+msgid "Налаштування шапки сайту (header.php)"
+msgstr "Настройки шапки сайта (header.php)"
+
+#: includes/customizer.php:108
+msgid "Вікористовувати Yandex.share"
+msgstr "Использовать Yandex.share"
+
+#: includes/library.php:60
+msgid "Повернутись на головну сторінку"
+msgstr "Вернуться на главную страницу"
+
+#: includes/library.php:64
+msgid "Головна"
+msgstr "Главная"
+
+#: includes/library.php:77
+msgid "Домашня сторінка"
+msgstr "Домашняя страница"
+
+#: includes/library.php:97 index.php:92
+msgid "Попередня сторінка"
+msgstr "Предыдущая страница"
+
+#: includes/library.php:98 index.php:93
+msgid "Наступна сторінка"
+msgstr "Следующая страница"
+
+#: includes/menus.php:10
+msgid "Меню в шапці (зліва)"
+msgstr "Меню в шапке (слева)"
+
+#: includes/menus.php:11
+msgid "Меню в шапке (зправа)"
+msgstr "Меню в шапке (справа)"
+
+#: includes/menus.php:12
+msgid "Меню в підвалі"
+msgstr "Меню в шапке (слева)"
+
+#: includes/metabox-contacts.php:47 includes/sidebars.php:54
+msgid "Контакти"
+msgstr "Контакты"
+
+#: includes/metabox-contacts.php:90
+msgid "Адреса организації"
+msgstr "Адрес организации"
+
+#: includes/metabox-contacts.php:91
+msgid "Код Google-мапи"
+msgstr "Код Google-карты"
+
+#: includes/metabox-contacts.php:92
+msgid "Шорткод форми"
+msgstr "Шорткод формы"
+
+#: includes/metabox-contacts.php:211
+msgid "Використовується тільки на сторінках з шаблоном \"Контакти\"."
+msgstr "Используется только на страницах с шаблоном \"Контакты\"."
+
+#: includes/sidebars.php:10
+msgid "Сайдбар шапки"
+msgstr "Сайдбар шапки"
+
+#: includes/sidebars.php:12
+msgid "Відображається тільки на головній сторінці сайту."
+msgstr "Отображается только на главной странице сайта."
+
+#: includes/sidebars.php:21
+msgid "Права Колонка"
+msgstr "Правая колонка"
+
+#: includes/sidebars.php:23
+msgid "Права колонка. Відображається на всіх сторінках сайту."
+msgstr "Правая колонка. Отображатся на всех страниах сайта."
+
+#: includes/sidebars.php:32
+msgid "Сайдбар футера"
+msgstr "Сайдбар подвала"
+
+#: includes/sidebars.php:34
+msgid "Відображається на всіх сторінках внизу сайта."
+msgstr "Отображается только на страницах с шаблоном \"Контакты\"."
+
+#: includes/sidebars.php:43
+msgid "Сайдбар 404"
+msgstr "Сайдбар 404"
+
+#: includes/sidebars.php:45
+msgid "Відображається на сторінці 404"
+msgstr "Отображается на странице 404"
+
+#: includes/sidebars.php:56
+msgid "Відображається лише на сторінках з шаблоном \"Контакти\"."
+msgstr "Отображается только на страницах с шаблоном \"Контакты\"."
+
+#: index.php:46 index.php:69 search.php:27
+msgid "Докладніше"
+msgstr "Подробней"
+
+#: index.php:82
+msgid "Навігація сторінок"
+msgstr "Навигация страниц"
+
+#: index.php:96
+msgid "Навігація постів"
+msgstr "Навигация постов"
+
+#: index.php:103 search.php:37
+msgid "Нажаль матеріали не знайдені."
+msgstr "К сожалению материалы не найдены."
+
+#: page-contacts.php:32
+msgid "Сайт / сторінка"
+msgstr "Сайт / страница"
+
+#: page-contacts.php:107
+msgid "Ваше им'я"
+msgstr "Ваше имя"
+
+#: page-contacts.php:133
+msgid "Сайт"
+msgstr "Сайт"
+
+#: page-contacts.php:143
+msgid "Сообщение"
+msgstr "Сообщение"
+
+#: page-contacts.php:155
+msgid "Очистити"
+msgstr "Очистить"
+
+#: search.php:25 single.php:16
+msgid "Автор"
+msgstr "Автор"
+
+#: single.php:18
+msgid "Опубліковано"
+msgstr "Опуликовано"
+
+#: single.php:20
+msgid "Перегляди"
+msgstr "Просмотры"
+
+#: single.php:22
+msgid "Коментарі"
+msgstr "Комментарии"
+
+#: single.php:26
+msgid "Тегі"
+msgstr "Теги"
+
+#: single.php:45
+msgid "Попередній"
+msgstr "Предыдущий"
+
+#: single.php:46
+msgid "Наступній"
+msgstr "Следующий"
