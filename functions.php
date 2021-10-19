@@ -55,9 +55,14 @@ HTML;
 }, 10, 2 );
 
 
+
 require_once EVENTS_THEME_DIR . 'includes/library.php';
 require_once EVENTS_THEME_DIR . 'includes/customizer.php';
 require_once EVENTS_THEME_DIR . 'includes/enqueue.php';
 require_once EVENTS_THEME_DIR . 'includes/sidebars.php';
 require_once EVENTS_THEME_DIR . 'includes/menus.php';
 require_once EVENTS_THEME_DIR . 'includes/metabox-contacts.php';
+
+
+get_template_part( 'shortcodes/accordio-list' );
+get_template_part( 'shortcodes/tabs' );

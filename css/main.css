@@ -52,7 +52,9 @@
 .content img {
   max-width: 100%;
   margin-top: 3px;
-  margin-bottom: 3px; }
+  margin-bottom: 3px;
+  height: auto;
+  }
   .content img.pull-left {
     margin-right: 15px; }
   .content img.pull-right {
@@ -308,3 +310,157 @@
     border-bottom: 1px solid #000; }
     .footer__wrapper a {
       color: #fff; }
+
+
+
+/**
+
+*/
+
+.accordio .listitem {
+   margin: 0.5em 0;
+}
+ .accordio__listitem .panel {
+   position: relative;
+   background-color: #0e5086;
+   cursor: pointer;
+   min-height: 3em;
+   padding: 0 0.5em;
+   margin-bottom: 0;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
+   transform-origin: center center;
+   transition: background-color 200ms;
+}
+ .accordio__listitem .panel:hover {
+   background-color: #136bb4;
+}
+ .accordio__listitem .panel .thumbnail {
+   position: absolute;
+   top: -0.25em;
+   left: 0;
+   width: 3.5em;
+   height: 3.5em;
+   border: 2px solid #0e5086;
+   background-color: #f8f8f8;
+   padding: 0.25em;
+   box-sizing: border-box;
+}
+ .accordio__listitem .panel:after {
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   max-width: 512px;
+   max-height: 512px;
+   content: '';
+   margin-left: auto;
+   margin-right: 1em;
+   background-image: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDI4NC45MjkgMjg0LjkyOSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjg0LjkyOSAyODQuOTI5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc+PGc+Cgk8cGF0aCBkPSJNMjgyLjA4Miw3Ni41MTFsLTE0LjI3NC0xNC4yNzNjLTEuOTAyLTEuOTA2LTQuMDkzLTIuODU2LTYuNTctMi44NTZjLTIuNDcxLDAtNC42NjEsMC45NS02LjU2MywyLjg1NkwxNDIuNDY2LDE3NC40NDEgICBMMzAuMjYyLDYyLjI0MWMtMS45MDMtMS45MDYtNC4wOTMtMi44NTYtNi41NjctMi44NTZjLTIuNDc1LDAtNC42NjUsMC45NS02LjU2NywyLjg1NkwyLjg1Niw3Ni41MTVDMC45NSw3OC40MTcsMCw4MC42MDcsMCw4My4wODIgICBjMCwyLjQ3MywwLjk1Myw0LjY2MywyLjg1Niw2LjU2NWwxMzMuMDQzLDEzMy4wNDZjMS45MDIsMS45MDMsNC4wOTMsMi44NTQsNi41NjcsMi44NTRzNC42NjEtMC45NTEsNi41NjItMi44NTRMMjgyLjA4Miw4OS42NDcgICBjMS45MDItMS45MDMsMi44NDctNC4wOTMsMi44NDctNi41NjVDMjg0LjkyOSw4MC42MDcsMjgzLjk4NCw3OC40MTcsMjgyLjA4Miw3Ni41MTF6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIHN0eWxlPSJmaWxsOiNGRkZGRkYiIGRhdGEtb2xkX2NvbG9yPSIjZmZmZmZmIj48L3BhdGg+CjwvZz48L2c+IDwvc3ZnPg==');
+   width: 1em;
+   height: 1em;
+   transform-origin: center center;
+   transition: transform 200ms;
+   flex-shrink: 0;
+}
+ .accordio__listitem .panel .title {
+   font-size: 1em;
+   line-height: 1.5em;
+   font-weight: bold;
+   color: #fff;
+   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+   margin-top: 0;
+   margin-bottom: 0;
+   font-variant: normal;
+}
+ .accordio__listitem .panel .thumbnail + .title {
+   margin-left: 3.5em;
+}
+ .accordio__listitem .content {
+   background-color: #f8f8f8;
+   padding: 0.5em;
+   border: 1px solid #0e5086;
+}
+ .accordio__listitem.active .panel {
+   background-color: #136bb4;
+}
+ .accordio__listitem.active .panel:after {
+   transform: rotate(180deg);
+}
+
+
+/**
+ табы
+*/
+
+.tabs[data-heading] {
+   margin: 15px auto;
+}
+ .tabs[data-heading] .tabs-heading {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+ .tabs[data-heading] .tabs-heading li {
+   display: inline-block;
+   margin-bottom: -4px;
+   padding: 0.5em 1em;
+   color: #fff;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+   font-size: 1em;
+   cursor: pointer;
+   font-weight: bold;
+   box-sizing: border-box;
+}
+ .tabs[data-heading] .tabs-heading li + li {
+   margin-left: 3px;
+}
+ .tabs[data-heading] .tabs-heading li:hover {
+   text-decoration: none;
+}
+ .tabs[data-heading] .tabs-heading li.active:hover {
+   background-color: #fff;
+}
+ .tabs[data-heading] .tabs-heading li.active {
+   background-color: #fff;
+   border-bottom: 2px solid #fff;
+   color: inherit;
+   text-shadow: none;
+   font-size: 1em;
+}
+ .tabs[data-heading] .tab-section {
+   padding: 5px 10px;
+   margin: 0;
+   border-top: none;
+   position: relative;
+   display: none;
+   background-color: #fff;
+}
+ .tabs[data-heading] .tab-section.active {
+   display: block;
+}
+ .tabs[data-heading] .accordio-section .heading {
+   padding: 0.75em;
+}
+ .tabs[data-heading] .tabs-heading {
+   border-bottom: 2px solid #555;
+}
+ .tabs[data-heading] .tabs-heading li {
+   background-color: #555;
+   border-bottom: 2px solid #555;
+}
+ .tabs[data-heading] .tabs-heading li:hover {
+   background-color: #626262;
+}
+ .tabs[data-heading] .tabs-heading li.active {
+   border: 2px solid #555;
+}
+ .tabs[data-heading] .tab-section {
+   border: 2px solid #555;
+   border-top: none;
+}
+ 

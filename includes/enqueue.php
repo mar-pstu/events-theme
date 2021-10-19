@@ -80,6 +80,24 @@ add_action( 'wp_enqueue_scripts', function () {
 	// скрипты для работы комментариев
 	wp_enqueue_script( 'comment-reply' );
 
+	// скрипты для баянов
+	wp_enqueue_script(
+		'accordio-shortcode',
+		get_theme_file_uri( 'scripts/accordio.js' ),
+		array( 'jquery' ),
+		filemtime( get_theme_file_path( 'scripts/accordio.js' ) ),
+		'in_footer'
+	);
+
+	// скрипты для табов
+	wp_enqueue_script(
+		'tabs-shortcode',
+		get_theme_file_uri( 'scripts/tabs.js' ),
+		array( 'jquery' ),
+		filemtime( get_theme_file_path( 'scripts/tabs.js' ) ),
+		'in_footer'
+	);
+
 } );
 
 
